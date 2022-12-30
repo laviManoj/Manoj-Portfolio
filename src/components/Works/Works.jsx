@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
+import codo from "../../img/codo.png";
+import byjus from "../../img/byjus.png";
+import wyze from "../../img/wyze.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
@@ -54,13 +54,13 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img src={wyze} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={byjus} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={codo} alt="" />
           </div>{" "}
           <div className="w-secCircle">
             <img src={Shopify} alt="" />
