@@ -18,7 +18,7 @@
   gap: 0.25rem;
 }
 .i-name > :nth-child(1) {
-  color: var(--black);
+  color: white;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -30,7 +30,7 @@
 .i-name > :nth-child(3) {
   font-weight: 100;
   font-size: 14px;
-  color: var(--gray);
+  color: white;
   margin-top: 10px;
 }
 .i-button {
@@ -59,8 +59,9 @@
 }
 .i-right > :nth-child(1) {
   transform: scale(0.69);
-  left: -15%;
-  top: -9%;
+  right: -21%;
+  top: 25%;
+
 }
 .i-right > :nth-child(2) {
   top: -4.6rem;
