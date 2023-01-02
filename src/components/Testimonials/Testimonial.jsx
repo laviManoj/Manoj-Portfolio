@@ -1,16 +1,16 @@
-import React from "react";
-import "./Testimonial.css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+// import React from "react";
+// import "./Testimonial.css";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
 
-import { Pagination } from "swiper";
-import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+// import { Pagination } from "swiper";
+// import "swiper/css/pagination";
+// import profilePic1 from "../../img/profile1.jpg";
+// import profilePic2 from "../../img/profile2.jpg";
+// import profilePic3 from "../../img/profile3.jpg";
+// import profilePic4 from "../../img/profile4.jpg";
 
-const Testimonial = () => {
+// const Testimonial = () => {
   // const clients = [
     // {
     //   img: profilePic1,
@@ -34,8 +34,8 @@ const Testimonial = () => {
     // },
   // ];
 
-  return (
-    <div className="t-wrapper" id="testimonial">
+  // return (
+  //   <div className="t-wrapper" id="testimonial">
     {/* //   <div className="t-heading">
     //     <span>Clients always get </span>
     //     <span>Exceptional Work </span>
@@ -44,12 +44,12 @@ const Testimonial = () => {
     //   <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
 
     //   </div> */}
-      <Swiper
+      {/* <Swiper
         // install Swiper modules
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
-      >
+      > */}
         {/* {clients.map((client, index) => {
           return (
             <SwiperSlide key={index}>
@@ -60,9 +60,9 @@ const Testimonial = () => {
             </SwiperSlide>
           );
         })} */}
-      </Swiper>
-    </div>
-  );
-};
+//       </Swiper>
+//     </div>
+//   );
+// };
 
-export default Testimonial;
+// export default Testimonial;
