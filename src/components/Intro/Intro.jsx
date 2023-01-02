@@ -29,11 +29,10 @@ const Intro = () => {
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
           <span>Manoj H</span>
-          <h3>Associate Software Engineer</h3>
-          <span>
+          <h1>
             Fullstack Developer with experience in web designing and Backend 
             development, producting the Quality work
-          </span>
+          </h1>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
@@ -47,9 +46,8 @@ const Intro = () => {
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
-        <img src={Vector2} alt="" />
-        <img src={boy} alt="" height={250} padding="4px"/>
+        <img src={boy} alt="" height={600} padding="50px"/>
+      
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

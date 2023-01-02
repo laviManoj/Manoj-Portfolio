@@ -24,8 +24,8 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
+        <span style={{color:"white" }}>My Awesome</span>
+        <span>skils</span>
         <spane>
           Lorem ispum is simpley dummy text of printing of printing Lorem
           <br />
@@ -44,11 +44,6 @@ const Services = () => {
           whileInView={{ left: "14rem" }}
           transition={transition}
         >
-          <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Excalidraw"}
-          />
         </motion.div>
         {/* second card */}
         <motion.div
@@ -68,14 +63,7 @@ const Services = () => {
           whileInView={{ left: "12rem" }}
           transition={transition}
         >
-          <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
-            color="rgba(252, 166, 31, 0.45)"
-          />
+        
         </motion.div>
         <div
           className="blur s-blur2"
