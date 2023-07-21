@@ -4,7 +4,7 @@ import codo from "../../img/codo.png";
 import byjus from "../../img/byjus.png";
 import wyze from "../../img/wyze.png";
 import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Kappsoft from "../../img/kappsoft-logo.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import {Link} from 'react-scroll'
@@ -66,7 +66,7 @@ const Works = () => {
             <img src={Shopify} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Kappsoft} alt="" />
           </div>
         </motion.div>
         {/* background Circles */}
